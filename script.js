@@ -5,7 +5,7 @@ const box = document.querySelectorAll(".box");
 screen.textContent = "";
 box.forEach(element => {
     element.addEventListener("click", () => {
-        if (screen.textContent.length < 25) {
+        if (screen.textContent.length < 22) {
             screen.textContent += element.textContent
         }
     })
