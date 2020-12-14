@@ -43,6 +43,7 @@ body{
     height: 35px;
     border-radius: 5px;
     margin: 10px;
+    cursor: pointer;
 }
 .box:hover , .box2:hover{
     background: #46656a;
